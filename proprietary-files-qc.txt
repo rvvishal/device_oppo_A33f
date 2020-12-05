@@ -1,5 +1,6 @@
 # Camera
 bin/mm-qcamera-daemon
+vendor/lib/hw/camera.vendor.msm8916.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegehw.so
 vendor/lib/libmmcamera2_c2d_module.so
