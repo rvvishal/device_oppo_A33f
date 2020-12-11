@@ -17,4 +17,12 @@
 <resources>
     <!-- Disable button brightness settings -->
     <integer name="config_buttonBrightnessSettingDefault">0</integer>
+     
+    <!-- Older rotation sensors are not setting event.timestamp correctly. Setting to
+         true will use SystemClock.elapsedRealtimeNanos() to set timestamp. -->
+    <bool name="config_useSystemClockforRotationSensor">true</bool>
+
+    <!-- Whether device supports double tap to wake -->
+    <bool name="config_supportDoubleTapWake">true</bool>
 </resources>
+
