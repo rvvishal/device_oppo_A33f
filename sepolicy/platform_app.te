@@ -1,4 +1,2 @@
 allow platform_app radio_data_file:dir getattr;
 allow platform_app system_app_data_file:dir getattr;
-#Face Unlock
-get_prop(platform_app, camera_prop)
