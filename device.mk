@@ -109,35 +109,35 @@ PRODUCT_COPY_FILES += \
 
 # Audio
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/audio/acdbdata/15399/Handset_cal.acbd:system/etc/acdbdata/15399/Handset_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/15399/Hdmi_cal.acbd:system/etc/acdbdata/15399/Hdmi_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/15399/Headset_cal.acbd:system/etc/acdbdata/15399/Headset_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/15399/Speaker_cal.acbd:system/etc/acdbdata/15399/Speaker_cal.acbd \
+   $(LOCAL_PATH)/audio/acdbdata/15399/Handset_cal.acdb:system/etc/acdbdata/15399/Handset_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/15399/Hdmi_cal.acdb:system/etc/acdbdata/15399/Hdmi_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/15399/Headset_cal.acdb:system/etc/acdbdata/15399/Headset_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/15399/Speaker_cal.acdb:system/etc/acdbdata/15399/Speaker_cal.acdb \
    $(LOCAL_PATH)/audio/acdbdata/15399/WorkspaceFile.qwsp:system/etc/acdbdata/15399/WorkspaceFile.qwsp \
-   $(LOCAL_PATH)/audio/acdbdata/15399/Bluetooth_cal.acbd:system/etc/acdbdata/15399/Bluetooth_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/15399/General_cal.acbd:system/etc/acdbdata/15399/General_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/15399/Global_cal.acbd:system/etc/acdbdata/15399/Global_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_General_cal.acbd:system/etc/acdbdata/MTP/MTP_General_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Global_cal.acbd:system/etc/acdbdata/MTP/MTP_Global_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Handset_cal.acbd:system/etc/acdbdata/MTP/MTP_Handset_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Hdmi_cal.acbd:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Headset_cal.acbd:system/etc/acdbdata/MTP/MTP_Headset_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Speaker_cal.acbd:system/etc/acdbdata/MTP/MTP_Speaker_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Bluetooth_cal.acbd:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Handset_cal.acbd:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Handset_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Hdmi_cal.acbd:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Hdmi_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Headset_cal.acbd:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Headset_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Speaker_cal.acbd:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Speaker_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acbd:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acbd:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acbd:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Headset_cal.acbd:system/etc/acdbdata/QRD/QRD_Headset_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Speaker_cal.acbd:system/etc/acdbdata/QRD/QRD_Speaker_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Bluetooth_cal.acbd:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_General_cal.acbd:system/etc/acdbdata/QRD/QRD_General_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Global_cal.acbd:system/etc/acdbdata/QRD/QRD_Global_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Handset_cal.acbd:system/etc/acdbdata/QRD/QRD_Handset_cal.acbd \
-   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Hdmi_cal.acbd:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acbd \
+   $(LOCAL_PATH)/audio/acdbdata/15399/Bluetooth_cal.acdb:system/etc/acdbdata/15399/Bluetooth_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/15399/General_cal.acdb:system/etc/acdbdata/15399/General_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/15399/Global_cal.acdb:system/etc/acdbdata/15399/Global_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Hdmi_cal.acdb:system/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Handset_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Handset_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Hdmi_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Hdmi_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Headset_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Headset_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Speaker_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Speaker_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Bluetooth_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_General_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb:system/etc/acdbdata/MTP/msm8939-tapan-snd-card/MTP_WCD9306_Global_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+   $(LOCAL_PATH)/audio/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
    $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
    $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
    $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml \
