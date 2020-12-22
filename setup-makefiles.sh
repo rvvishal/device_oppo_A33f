@@ -20,8 +20,8 @@ set -e
 export INITIAL_COPYRIGHT_YEAR=2015
 
 # Required!
-DEVICE=a6000
-VENDOR=lenovo
+DEVICE=A33f
+VENDOR=oppo
 
 # Load extractutils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
