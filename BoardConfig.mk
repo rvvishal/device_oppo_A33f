@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PLATFORM_PATH := device/oppo/A33
+PLATFORM_PATH := device/oppo/A33f
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8916
@@ -45,11 +45,11 @@ BOARD_KERNEL_OFFSET := 0x00008000
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 BOARD_KERNEL_IMAGE_NAME := Image
-TARGET_KERNEL_SOURCE := kernel/oppo/msm8939
+TARGET_KERNEL_SOURCE := kernel/oppo/A33f
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_CUSTOM_DTBTOOL := dtbToolOppo
-TARGET_KERNEL_CONFIG := lineageos_a37f_defconfig
+TARGET_KERNEL_CONFIG := lineageos_a33_defconfig
 
 # File System
 TARGET_FS_CONFIG_GEN := $(PLATFORM_PATH)/config.fs
@@ -186,4 +186,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 
 # Proprietary Prebuilt
--include vendor/oppo/A33/BoardConfigVendor.mk
+-include vendor/oppo/A33f/BoardConfigVendor.mk
