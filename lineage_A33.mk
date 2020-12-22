@@ -16,7 +16,7 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
-$(call inherit-product, device/oppo/A33/device.mk)
+$(call inherit-product, device/oppo/A33f/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Assert
@@ -26,11 +26,11 @@ TARGET_OTA_ASSERT_DEVICE := A33f
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
 TARGET_VENDOR := Oppo
-PRODUCT_DEVICE := A33
-PRODUCT_NAME := lineage_A33
+PRODUCT_DEVICE := A33f
+PRODUCT_NAME := lineage_A33f
 BOARD_VENDOR := Oppo
 PRODUCT_BRAND := Oppo
-PRODUCT_MODEL := A33
+PRODUCT_MODEL := A33f
 PRODUCT_MANUFACTURER := Oppo
 
 # Build fingerprint
