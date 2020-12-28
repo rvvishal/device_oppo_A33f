@@ -1,5 +1,12 @@
-allow sensors sensors_data_file:fifo_file create_file_perms;
-allow sensors sysfs:file rw_file_perms;
-allow sensors input_device:dir r_dir_perms;
-allow sensors input_device:chr_file r_file_perms;
+type sensor_init, domain;
+type sensor_init_exec, exec_type, file_type;
 
+init_daemon_domain(sensor_init);
+
+allow sensor_init nv_data_file:dir { search };
+allow sensor_init nv_data_file:file r_file_perms;
+
+allow sensor_init sensor_calib_file:file rw_file_perms;
+
+allow sensor_init oppo_ver_proc:dir search;
+allow sensor_init oppo_ver_proc:file r_file_perms;
