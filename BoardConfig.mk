@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PLATFORM_PATH := device/oppo/A33f
+PLATFORM_PATH := device/oppo/A33
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8916
@@ -157,6 +157,7 @@ TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
 	/system/bin/mediaserver=22 \
 	/system/vendor/bin/mm-qcamera-daemon=22
 
+
 # GPS
 TARGET_NO_RPC := true
 USE_DEVICE_SPECIFIC_GPS := true
@@ -186,4 +187,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 
 # Proprietary Prebuilt
--include vendor/oppo/A33f/BoardConfigVendor.mk
+-include vendor/oppo/A33/BoardConfigVendor.mk
