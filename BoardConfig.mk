@@ -189,4 +189,4 @@ WIFI_DRIVER_FW_PATH_AP           := "ap"
 WPA_SUPPLICANT_VERSION           := VER_0_8_X
 
 # Proprietary Prebuilt
--include vendor/oppo/A33f/BoardConfigVendor.mk
+-include vendor/oppo/A33/BoardConfigVendor.mk
