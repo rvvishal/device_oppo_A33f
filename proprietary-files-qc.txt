@@ -1,3 +1,10 @@
+# sensors
+lib/sensors.msm8916.so
+
+# Sensors
+etc/sensor_def_qcomdev.conf
+vendor/lib/libAKM8963.so
+
 # Camera
 bin/mm-qcamera-daemon
 vendor/lib/hw/camera.vendor.msm8916.so
@@ -284,3 +291,8 @@ vendor/lib/mediadrm/libwvdrmengine.so|b88c5df27094314c39ff208fdd30c9e37042c70c
 # WLAN - from crackling
 lib64/libwcnss_qmi.so|449d9a9e8bc58a50842c49694d2b77da182fc37e
 -lib64/libwpa_qmi_eap_proxy.so|d73183e1a730aa29ed929766434da0ae668ae06d
+
+# WiFi
+lib/libwcnss_qmi.so:vendor/lib/libwcnss_qmi.so
+-lib/libwpa_qmi_eap_proxy.so:vendor/lib/libwpa_qmi_eap_proxy.so
+

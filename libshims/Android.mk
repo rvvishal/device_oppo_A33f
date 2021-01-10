@@ -26,23 +26,7 @@ LOCAL_SRC_FILES := \
     MediaCodec.cpp \
     AudioSource.cpp \
     MetaData.cpp \
-    camera_parameters/CameraParameters.cpp \
-    justshoot_shim.cpp
 
 LOCAL_C_INCLUDES := gui
 LOCAL_SHARED_LIBRARIES := libsensor libutils liblog libbinder \
                           libandroid libui libstagefright libmedia
-
-LOCAL_MODULE := libshim_camera
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_VENDOR_MODULE := true
-
-include $(BUILD_SHARED_LIBRARY)
-
-include $(CLEAR_VARS)
-LOCAL_SRC_FILES := camera_shim.c
-LOCAL_SHARED_LIBRARIES := libutils libgui liblog
-LOCAL_MODULE := libcamera_shim
-LOCAL_MODULE_TAGS := optional
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_SHARED_LIBRARY)
